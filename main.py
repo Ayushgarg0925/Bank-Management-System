@@ -1,3 +1,4 @@
+#this is connection code 
 import mysql.connector as c
 
 con = c.connect(host='localhost',
@@ -171,3 +172,4 @@ while True:
         break
     else:
         print("Please Press Correct Number")
+
