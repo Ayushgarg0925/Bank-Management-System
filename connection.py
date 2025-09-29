@@ -1,3 +1,4 @@
+# this is main connecton file 
 import mysql.connector as c
 con = c.connect(host='localhost',
                 user='root',
@@ -7,4 +8,5 @@ if con.is_connected():
     print("connect successfully")
 else:
     print('fail')
+
 
